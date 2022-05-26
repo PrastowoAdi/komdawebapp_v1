@@ -56,8 +56,8 @@ export default function Detail() {
               </div>
 
             </div>
-            <div className="px-4 mx-auto lg:w-1/2">
-              <img src="/img/pwo.png" alt="hero-bg" className="max-w-[380px] lg:max-w-[420px] mx-auto w-96 lg:w-[410px] rounded-md shadow-md shadow-zinc-300" />
+            <div className="px-4 mx-auto mt-12 lg:w-1/2 md:mt-0">
+              <img src="/img/pwo.png" alt="hero-bg" className="max-w-[320px] lg:max-w-[420px] mx-auto w-80 sm:w-72 lg:w-[410px] rounded-md shadow-md shadow-zinc-300" />
             </div>
           </div>
         </div>
