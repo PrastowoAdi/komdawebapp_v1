@@ -11,7 +11,7 @@ export default function Contact() {
           shortDesc="KRITIK & SARAN"
           desc="Masukan dan saran maupun aprisiasi temen temen pemuda sangat berharga bagi kami, jadi monggo waktu dan tempat dipersilahkan"
           descLink="Lihat suara komda yang lain..."
-          href="/contact"
+          href="/#feedback"
         />
 
         <div className="flex flex-wrap">

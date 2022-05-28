@@ -10,6 +10,7 @@ import Hero from "../../components/organism/news/Hero";
 import AgendaTerdekat from "../../components/organism/news/AgendaTerdekat";
 import Information from "../../components/organism/news/Information";
 import AgendaKomda from "../../components/organism/news/AgendaKomda";
+import ArsipFoto from "../../components/organism/arsipFoto";
 
 export default function NewsPage() {
   return (
@@ -19,6 +20,7 @@ export default function NewsPage() {
       <AgendaTerdekat />
       <Information />
       <AgendaKomda />
+      <ArsipFoto />
       <ButtonToTop />
       <Footer />
     </>

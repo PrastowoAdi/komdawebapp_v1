@@ -10,6 +10,9 @@ export default function Detail() {
   const backNews = () => {
     router.push("/news");
   };
+  const backHome = () => {
+    router.push("/#news");
+  };
   return (
     <>
       <Navbar activeMenu="KabarKomda" />
@@ -18,7 +21,7 @@ export default function Detail() {
           <div className="flex flex-wrap">
             <div className="w-full px-4 py-6 self-center lg:w-1/2">
               <h1 className="text-3xl lg:text-4xl font-semibold text-slate-900 dark:text-white">
-                <span className="block text-white tracking-wide text-base">
+                <span className="block text-zinc-600 dark:text-white tracking-wide text-base">
                   <i className="fas fa-eye text-yellow-600 text-xl" />
                   {" "}
                   Detail Kabar Komda
@@ -49,9 +52,11 @@ export default function Detail() {
                 </li>
               </ul>
               <div className="mt-4">
-                <button className="text-base font-semibold text-white bg-primary py-3 px-4 rounded-md hover:opacity-80 hover:shadow-lg transition duration-500" onClick={() => backNews()}>
-                  <i className="fas fa-hand-point-left text-white mr-2" />
-                  Kembali
+                <button className="text-base font-semibold text-white bg-primary py-2 px-3 rounded-md hover:opacity-80 hover:shadow-lg transition duration-500 mr-2" onClick={() => backHome()}>
+                  <i className="fas fa-home text-white" />
+                </button>
+                <button className="text-base font-semibold text-white bg-primary py-2 px-[13px] rounded-md hover:opacity-80 hover:shadow-lg transition duration-500" onClick={() => backNews()}>
+                  <i className="fas fa-hand-point-left text-white" />
                 </button>
               </div>
 

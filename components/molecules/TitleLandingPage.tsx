@@ -14,10 +14,10 @@ export default function TitleLandingPage(props: Partial<TitleLandingPageProps>) 
   return (
     <div className="w-full px-4">
       <div className="max-w-[38rem] mx-auto text-center mb-16">
-        <h4 className="font-semibold text-lg text-yellow-400 mb-2">
+        <h4 className="font-semibold text-lg text-yellow-400 mb-2 uppercase">
           {title}
         </h4>
-        <h2 className="font-bold text-dark text-4xl mb-4 sm:text-4xl md:text-5xl dark:text-white">
+        <h2 className="font-bold text-dark text-4xl mb-4 sm:text-4xl md:text-5xl dark:text-white uppercase">
           {shortDesc}
         </h2>
         <p className="font-medium text-md text-zinc-500 dark:text-zinc-400 md:text-lg">

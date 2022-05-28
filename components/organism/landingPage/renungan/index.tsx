@@ -12,7 +12,7 @@ export default function Renungan() {
           title="RENUNGAN"
           shortDesc="RENUNGAN KOMDA"
           desc="Firman Tuhan adalah makanan rohani hidup kita, dengan membaca firman Tuhan maka kita dapat dengan mudah memahami kehendak Tuhan"
-          href="/renungan"
+          href="/feature-baru"
           descLink="Lihat renungan lainya..."
         />
         <div className="flex flex-wrap">

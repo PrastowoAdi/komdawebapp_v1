@@ -29,6 +29,7 @@ export default function ItemRight(props: ItemRightProps) {
         {shortDesc}
         <Link href={href}>
           <a className="text-blue-600 hover:text-blue-500 cursor-pointer dark:text-blue-500 dark:hover:text-blue-400">
+            {" "}
             {descLink}
           </a>
         </Link>

@@ -98,6 +98,11 @@ export default function Navbar(props: Partial<NavbarProps>) {
                   href="/news"
                   active={activeMenu === "KabarKomda"}
                 />
+                <ItemNav
+                  title="Struktur Komda"
+                  href="/kepengurusan"
+                  active={activeMenu === "StrukturKomda"}
+                />
                 <li className="flex items-center pl-8 mt-3 lg:mt-0" />
                 {renderThemeChanger()}
               </ul>
